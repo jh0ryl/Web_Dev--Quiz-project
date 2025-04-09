@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="quiz.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="startTimer()">
+    <script src="quiz.js"></script>
     <header>
         <nav class="navbar quiz-navbar d-flex justify-content-between align-items-center px-4">
             <a class="navbar-brand" href="#">
                 Bee<span>W</span>ise
             </a>
-            <button class="stop-btn">STOP QUIZ</button>
+            <button class="stop-btn" onclick="stopTimer()">STOP QUIZ</button>
+            <button class="stop-btn" onclick="startTimer()">START QUIZ</button> <!--element used for testing timer-->
         </nav>
     </header>
     <main>
@@ -24,7 +26,7 @@
             <div class="timer-score d-flex flex-row mb-2">
                 <div class="timer d-flex align-items-center">
                     <img src="img/timer-icon.png" alt="">
-                    <span id="time">00:00</span>
+                    <span id="time"></span>
                 </div>
                 <div class="score d-flex align-items-center">
                     <img src="img/score-icon.png" alt="">

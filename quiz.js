@@ -1,5 +1,5 @@
 let countdown;
-let quizTime = 0;
+let quizTime = 10;
 let paused = false;
 let remainTime = 0;
 
@@ -7,7 +7,7 @@ function startTimer() {
     clearInterval(countdown);
 
     if(paused == 0) {
-        quizTime = 120;
+        quizTime = 10;
     } else {
         quizTime = remainTime;
     }
@@ -28,9 +28,10 @@ function startTimer() {
     countdown = setInterval(() => {
         quizTime--;
   
-        if (quizTime == 0) {
+        if (quizTime < 0) {
             clearInterval(countdown);
-            //additional code for pop up when timer ends
+            paused = false;
+            //call function for next question
         } else {
             updateTimer();
         }
@@ -41,4 +42,10 @@ function stopTimer() {
     paused = true;
     remainTime = quizTime;
     clearInterval(countdown);
+}
+
+function displayResult() {
+    document.getElementById("result").style.display="flex";
+    document.body.style.overflow="hidden";
+    stopTimer();
 }

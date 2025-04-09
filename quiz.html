@@ -18,7 +18,9 @@
                 Bee<span>W</span>ise
             </a>
             <button class="stop-btn" onclick="stopTimer()">STOP QUIZ</button>
-            <button class="stop-btn" onclick="startTimer()">START QUIZ</button> <!--element used for testing timer-->
+             <!--elements used for testing javascript-->
+            <button class="stop-btn" onclick="startTimer()">START QUIZ</button>
+            <button class="stop-btn" onclick="displayResult()">SHOW RESULT</button>
         </nav>
     </header>
     <main>
@@ -64,6 +66,20 @@
             </div>
             <div class="return-home mt-5">
                 <a href="home.html"><img src="img/home-icon.png" alt="">HOME</a>
+            </div>
+        </div>
+        <div id="result" class="quiz-end container-fluid p-4">
+            <img src="img/pass.png">
+            <div class="result-container">
+                <span id="result-message">Hive Five! You Did Great!</span><br>
+                <div class="score-container">
+                    <span id="final-score">1</span> / 5
+                </div>
+            </div>
+            <div class="result-btn-group d-flex flex-column gap-3">
+                <button id="review-score">REVIEW SCORE</button>
+                <button id="try-again">TRY AGAIN</button>
+                <button id="quit">QUIT</button>
             </div>
         </div>
     </main>

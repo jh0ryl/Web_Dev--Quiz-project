@@ -163,3 +163,55 @@ body {
     margin-right: 0.5vw;
     background: #1D63FF; 
 }
+
+.quiz-end {
+    background: url(img/texture.png), linear-gradient(#1D63FF, #FFCE32);
+    width: 33vw;
+    border-radius: 3%;
+    box-shadow: 0 0.5vw 1vw 0.1vw rgba(29, 99, 255, 0.5);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 999;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.quiz-end img {
+    width: 29.5vw;
+}
+
+#result-message {
+    font-weight: 400;
+    font-size: 1.65vw;
+}
+
+#final-score, .score-container {
+    color: #FFCE32;
+    font-weight: 400;
+    font-size: 1.35vw;
+}
+
+.score-container {
+    border-style: solid;
+    border-color: #FFCE32;
+    width: 13.45vw;
+    margin-bottom: 14%;
+}
+
+.result-btn-group {
+    width: 20.3vw;
+}
+
+.result-btn-group button {
+    border-radius: 999px;
+    border: 0.1vw solid black;
+    font-weight: 500;
+    font-size: 1.35vw;
+    padding: 1% 0;
+}
+

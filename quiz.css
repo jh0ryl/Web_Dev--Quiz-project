@@ -10,7 +10,7 @@ header {
 }
 
 .navbar {
-    background: url(img/texture.png), #FFCE32;
+    background: url(assets/img/texture.png), #FFCE32;
     background-repeat: repeat;
     background-size: 80%;
     margin-bottom: 3%;
@@ -26,6 +26,10 @@ header {
 .navbar-brand span {
     font-size: 2.5vw;
     color: #1D63FF;
+}
+
+.navbar-brand:hover {
+    color: #495057;
 }
 
 .stop-btn {
@@ -128,6 +132,7 @@ body {
     justify-content: flex-start;
 }
 
+
 .choice-letter {
     font-size: 1.7vw;
     color: #495057;
@@ -165,7 +170,8 @@ body {
 }
 
 .quiz-end {
-    background: url(img/texture.png), linear-gradient(#1D63FF, #FFCE32);
+    background: url(assets/img/texture.png), linear-gradient(#1D63FF, #FFCE32);
+    background-size: 250%;
     width: 33vw;
     border-radius: 3%;
     box-shadow: 0 0.5vw 1vw 0.1vw rgba(29, 99, 255, 0.5);
@@ -183,11 +189,21 @@ body {
 
 .quiz-end img {
     width: 29.5vw;
+    -webkit-filter: drop-shadow(0.1vw 0.2vw 0.3vw #222);
+    filter: drop-shadow(0.1vw 0.2vw 0.2vw #222);
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
 }
 
 #result-message {
     font-weight: 400;
     font-size: 1.65vw;
+    margin-bottom: 0.5vw;
 }
 
 #final-score, .score-container {
@@ -215,3 +231,17 @@ body {
     padding: 1% 0;
 }
 
+#review-score:hover {
+    background-color: #899D47;
+    color: white;
+}
+
+#try-again:hover {
+    background-color: #CC8331;
+    color: white;
+}
+
+#quit:hover {
+    background-color: #FD6E71;
+    color: white;
+}

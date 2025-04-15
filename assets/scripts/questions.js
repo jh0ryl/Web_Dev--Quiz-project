@@ -56,23 +56,23 @@ const set2 = [{
 
 const set3 = [{
     question: "When was former President Rodrigo Duterte arrested?",
-    answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-    correct: 0
+    answers: ["March 12,2025", "March 11,2024", "March 11,2025", "March 10,2025"], 
+    correct: "March 11,2025"
 }, 
     {
         question: "When was the War on Drugs in the Philippines started?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["June 29, 2016", "June 30, 2016", "July 1, 2016", "June 30, 2017"], 
+        correct: "June 30, 2016"
 }, 
     {
         question: "Who has Rodrigo Duterte in custody?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["International Criminal Court (ICC)", "Intentional Criminal Court (ICC)", "International Criminal Council (ICC)", "International College Court (ICC)"], 
+        correct: "International Criminal Court (ICC)"
 }, 
     {
         question: "What was the major charge against Rodrigo Duterte?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["Crimes against Humanity of corruption", "Crimes against Humanity of taking drugs", "Crimes against Humanity of kidnapping and torture", "Crimes against Humanity of murder, torture, and rape"], 
+        correct: "Crimes against Humanity of murder, torture, and rape"
 }, 
     {
         question: "Where was Rodrigo Duterte taken?",

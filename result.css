@@ -1,0 +1,239 @@
+* {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 5%;
+}
+
+.navbar {
+    background: url(assets/img/texture.png), #FFCE32;
+    background-repeat: repeat;
+    background-size: 80%;
+    margin-bottom: 3%;
+}
+
+.navbar-brand, .navbar-brand span {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    color: #495057;
+    background: none;
+} 
+
+.navbar-brand span {
+    font-size: 2.5vw;
+    color: #1D63FF;
+}
+
+.navbar-brand:hover {
+    color: #495057;
+}
+
+
+.total-score {
+    font-weight: 700;
+    font-size: 1.2vw;
+    padding: 0.7% 2%;
+    border: none;
+    border-radius: 999px;
+    color: #ffffff;
+    background: #1D63FF;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.total-score span {
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.total-score img {
+    width: 1.1vw;
+}
+
+.button-container {
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+  
+.try-again-btn,
+.quit-btn {
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding: 0.5em 1.5em;
+    border: none;
+    border-radius: 999px;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+  
+.try-again-btn {
+    background-color: #899D47;
+}
+  
+.quit-btn {
+    background-color: #D34547;
+}
+
+body {
+    background: #F1F2F3;
+}
+
+.line {
+    width: 36.5%;
+    background-color: #1D63FF;
+    height: 0.7vh;
+    margin: 0 auto;
+    border-radius: 0px;
+}
+
+.number-row {
+    width: 36.5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap; 
+}
+
+.number-row span {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #495057;
+    align-items: center;
+}
+
+.question-nav {
+    width: 3vw;
+    height: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 800;
+    background-color: #E8ECEF;
+    border: 1px solid #A6AAB3;
+    display: flex;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    color: #495057;
+    transition: background-color 0.3s;
+  }
+  
+  .question-nav:hover {
+    background-color: #1D63FF;
+    color: #FFFFFF;
+  }
+
+.main-container, .section-container {
+    align-self: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 3%;
+    width: 95%;
+    height: 95%;
+}
+
+.main-container line {
+    margin-bottom: 3%;
+}
+
+.timer-score {
+    justify-content: flex-end;
+}
+
+.score {
+    color: #ffffff;
+    background: #1D63FF;
+    border-radius: 999px;
+    padding: 0.3% 2% 0.3% 1.5%;
+    font-weight: 600;
+    font-size: 1.4VW;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.score span {
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+
+.score img {
+    margin-right: 10%;
+    width: 1.2vw;
+}
+
+.question-container {
+    padding: 3% 5% 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+#question-num {
+    color: #A6AAB3;
+    font-weight: 800;
+    font-size: 1.2vw;
+    margin-left: -2%;
+}
+
+#num {
+    font-weight: 800;
+    font-size: 1.2vw;
+}
+
+#question {
+    color: #495057;
+    font-weight: 800;
+    margin-left: -2%;
+    margin-bottom: 2%;
+}
+
+.choices-group {
+    gap: 0.4%;
+}
+
+.choices {
+    width: 49.6%;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #A6AAB3;
+    border-radius: 0.6vw;
+    gap: 2%;
+    padding: 0.5% 1%;
+    margin-bottom: 3%;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.choice-letter {
+    font-size: 1.7vw;
+    color: #495057;
+    border-style: solid;
+    border-color: #A6AAB3;
+    border-radius: 50%;
+    border-width: 0.15vw;
+    padding: 0.1% 1.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    text-align: center;
+}
+
+.choice-text {
+    font-size: 1.6vw;
+}
+
+/* Explanation Section
+.explanation {
+    color: #A6AAB3;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.explanation p {
+    font-size: 1.1vw;
+} */
+

@@ -6,51 +6,51 @@ const setQ1 = [
 }, 
     {
         question: "When did the Gaza Ceasefire take place?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["January 19-March 18, 2025", "January 19-March 18, 2024", "January 19-February 18, 2024", "February 19-March 18, 2028"], 
+        correct: "January 19-March 18, 2025"
 }, 
     {
         question: "When did the South Korean President declare Martial Law?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["December 3, 2024", "December 4, 2024", "December 2, 2024", "December 3, 2023"], 
+        correct: "December 3, 2024"
     
 }, 
     {
         question: "When did the South Korean President get impeached?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["December 13, 2024", "December 14, 2025", "December 15, 2024", "December 14, 2024"], 
+        correct: "December 14, 2024"
 }, 
     {
         question: "When did Canadian Prime Minister Mark Carney want the snap election to take place? ",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["April 28,2024", "April 28,2025", "April 29,2025", "April 27,2025"], 
+        correct: "April 28,2025"
 }
 ]
 
 const set2 = [{
     question: "What are the dominant major and minor parties in the midterm poll elections?",
-    answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-    correct: 0
+    answers: ["Nacionalista Party: dominant majority party, Lakas-CMD: dominant minority party", "Lakas-CMD: subordinate majority party, Nacionalista Party: subordinate minority party.", "Nacionalista Party: dominant majority party, Lakas-CMD: dominant minority party", "Lakas-CMD: dominant majority party, Nacionalista Party: dominant minority party."], 
+    correct: "Lakas-CMD: dominant majority party, Nacionalista Party: dominant minority party."
 }, 
     {
         question: "According to COMELEC, how many Gen Z voters will vote in the 2025 midterm elections?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["About 20 billion voters", "About 21 million voters", "About 19 million voters", "About 20 million voters"], 
+        correct: "About 20 million voters"
 }, 
     {
         question: "When will the 2025 Philippine Senate election take place?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["May 13, 2025", "June 12, 2025", "May 12, 2024", "May 12, 2025"], 
+        correct: "May 12, 2025"
 }, 
     {
         question: "What is the number of registered voters for 2025 according to COMELEC?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["68.5 million", "69.4 million", "68.4 million", "68.4 billion"], 
+        correct: "68.4 million"
 }, 
     {
         question: "Why do we use indelible ink, also called electoral ink, when voting?",
-        answers: ["Sample choice", "Sample choice", "Sample choice", "Sample choice"], 
-        correct: 0
+        answers: ["For status / posting", "To count the number of people", "To allow double voting.", "To avoid double voting."], 
+        correct: "To avoid double voting."
 }
 ]
 

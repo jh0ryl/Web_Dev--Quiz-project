@@ -224,6 +224,25 @@ body {
     font-size: 1.6vw;
 }
 
+/* Answers 
+.correct-answer {
+    box-shadow: #899d47;
+    background-color: #d4edda;
+    transition: all 0.3s ease-in-out;
+}
+
+.wrong-answer {
+    box-shadow: #D34547, 63%;
+    background-color: #f8d7da;
+    transition: all 0.3s ease-in-out;
+}
+
+.clicked-correct {
+    box-shadow: #FFCE32;
+    background-color: #fff3cd;
+    transition: all 0.3s ease-in-out;
+} */
+
 /* Explanation Section
 .explanation {
     color: #A6AAB3;
@@ -236,4 +255,3 @@ body {
 .explanation p {
     font-size: 1.1vw;
 } */
-
